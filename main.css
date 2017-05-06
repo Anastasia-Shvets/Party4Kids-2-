@@ -58,3 +58,8 @@ header .search .search_icon{
 	width: 32px;
 	height: 32px;
 }
+header .logo .travel {
+	font-size:35px;
+	font-family:Lobster;
+	color:white;
+}
