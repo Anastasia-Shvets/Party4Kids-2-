@@ -2,3 +2,26 @@ body{
 }
 html{
 }
+footer{
+	background-color:black;
+	padding:30px;
+	
+}
+.foot a{
+	margin:7px;
+	
+}
+.foot{
+	padding:
+}
+.container{
+	width:100%;
+	max-width:1200px;
+	margin:0px auto;
+ 	
+}
+.paragraph{
+	float:right;
+	color:white;
+	font-size:13px;
+}
