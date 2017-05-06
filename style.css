@@ -22,9 +22,28 @@ main {
 	margin:0px auto;
  	padding-right: 15px;
  	padding-left: 15px;
+	box-sizing:border-box;
 }
 .paragraph{
 	float:right;
 	color:white;
 	font-size:13px;
+}
+.site-block_good-luck{
+	background-image:url(img/good_luck.jpg);
+	height:550px; 
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-top: 120px;
+	
+	
+}
+.good{
+	width: 80%;
+margin: 0px auto;
+text-align: center;
+text-transform: uppercase;
+border: 2px solid black;
+padding: 40px 15px;
+display: block;
 }
