@@ -2,6 +2,9 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
+h1{
+	font-size: 44px;
+}
 .table {
 	display: table;
 	width: 100%;
@@ -63,3 +66,64 @@ header .logo .travel {
 	font-family:Lobster;
 	color:white;
 }
+
+
+/* -------------------BLOCK FACTS-----------------*/
+
+.facts-item{
+	display:inline-block;
+	width: 20%;
+	float: left;
+	text-align:center;
+}
+.icon.earth{
+	background-image:url('img/earth.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	height: 128px;
+	max-height: 100%;
+	width: 128px;
+}
+.site-block.facts{
+	background-color:#8fadc9;
+	padding: 40px 0 60px;
+}
+.facts-content:after{
+	content:"";
+	clear: both;
+	display:block;
+}
+.facts-content{
+	color:white;
+}
+.facts-title{
+	color:white;
+	text-align:center;
+	font-family:'Lobster';
+}
+.icon {
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 128px;
+	max-height: 100%;
+	width: 128px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.icon-title{
+	text-transform: uppercase;
+}
+.icon.bicycle {
+	background-image: url('img/bicycle.png');
+}
+.icon.camera {
+	background-image: url('img/camera.png');
+}
+.icon.mountain {
+	background-image: url('img/mountain.png');
+}
+.icon.sun {
+	background-image: url('img/sun.png');
+}
+
+/* -------------------end BLOCK FACTS-----------------*/
