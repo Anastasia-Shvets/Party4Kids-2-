@@ -1,3 +1,4 @@
+*{box-sizing: border-box;}
 body{
 }
 html{
@@ -5,9 +6,6 @@ html{
 footer{
 	background-color:black;
 	padding:30px 0px;
-}
-main {
-	padding: 20px 0px;
 }
 .foot a{
 	margin:7px;
@@ -39,7 +37,7 @@ main {
 	
 }
 .good{
-	width: 80%;
+width: 80%;
 margin: 0px auto;
 text-align: center;
 text-transform: uppercase;
@@ -47,3 +45,61 @@ border: 2px solid black;
 padding: 40px 15px;
 display: block;
 }
+
+/*-----------------BLOCK ABOUT---------------*/
+
+.site-block.about {
+    background-image: url(img/BEwy4DjC0Ew.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left_block {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 30%;
+    padding: 40px;
+    display: inline-block;
+}
+.traveler {
+    text-align: center;
+    position: relative;
+}
+.traveler img{
+    border-radius: 50%;
+    overflow: hidden; 
+}
+.traveler::after {
+    content: 'HI!';
+    color: #EEEEEE;
+    font-size: 35px;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    font-family: 'Lobster';
+}
+.text_left {
+    color: #EEEEEE;
+    margin: 0 auto;
+    width: 180px;
+    max-width: 100%;
+    font-size: 15px;
+    position: relative;
+}
+.right_block {
+    width: 69%;
+    display: inline-block;
+}
+.main_text_right {
+    border: 2px solid #EEEEEE;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+.text_right {
+    background-color: #EEEEEE;
+    margin: 0 auto;
+    padding: 20px;
+}
+.text {
+    color: black;
+}
+ /*-----------------end BLOCK ABOUT---------------*/
