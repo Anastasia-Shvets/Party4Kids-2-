@@ -86,7 +86,9 @@ header .logo .travel {
 }
 .site-block.facts{
 	background-color:#8fadc9;
-	padding: 40px 0 60px;
+	padding: 130px 0 60px;
+    float: left;
+    width: 100%;
 }
 .facts-content:after{
 	content:"";
